@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Blog Template · Bootstrap v5.3</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Favicons -->
+
+    <meta name="theme-color" content="#712cf9">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+
+        }
+
+        hr {
+            color: #333;
+
+
+        }
+    </style>
+
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a class="active" href="fiches.html">Fiches</a></li>
+        <li><a href="ressource.html">Ressources</a></li>
+        <li><a href="dons.html">Dons</a></li>
+    </ul>
+
+
+    <!-- Sidebar -->
+
+    <div class="sidebar">
+        <div class="w3-sidebar w3-bar-block w3-collapse w3-card" style="width:200px;position: fixed;" id="mySidebar">
+            <div class="w3-dropdown-hover">
+                <button class="w3-button">Métiers d'artisan <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block">
+                    <a href="boulanger.html" class="w3-bar-item w3-button">Boulanger</a>
+                    <a href="chaudronnier.html" class="w3-bar-item w3-button">Chaudronnier</a>
+                    <a href="glacier.html" class="w3-bar-item w3-button">Glacier </a>
+                </div>
+            </div>
+        </div>
+        <br> <br> <br> <br> <br> <br> <br> <br>
+        <div class="w3-sidebar w3-bar-block w3-collapse w3-card" style="width:200px;" id="mySidebar">
+            <div class="w3-dropdown-hover">
+                <button class="w3-button">Métiers numérique.<i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block">
+                    <a href="dév.html" class="w3-bar-item w3-button">Dévellopeur web</a>
+                    <a href="i.cybersecu.html" class="w3-bar-item w3-button">Ingénieur en cybersécurité</a>
+                    <a href="#" class="w3-bar-item w3-button">Électricien (à venir).</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-main" style="margin-left:200px">
+        <br>
+        <div class="container" style="min-width:auto;">
+            <div class="jumbotron" style="margin-top: -160px;">
+                <h1>Fiches métiers</h1>
+                <p>Ici, vous aller pouvoir avoir accée à differentes présentation de métiers !!!. <br>
+                    Pour y acceder, aller sur le menu déroulant à gauche.
+                </p>
+            </div>
+
+        </div>
+
+        <article class="blog-post" style="margin-left: 50px;">
+            <h2 class="blog-post-title mb-1">Important</h2>
+            <p class="blog-post-meta">Nov 31, 2022 by <a href="gaspard.html">Gaspard</a></p>
+            <h3>L'importance des fiches.</h3>
+            <br>
+            <p>Les fiches de métier sont une ressource précieuse pour les collégiens et les lycéens qui cherchent à
+                mieux comprendre et à explorer le vaste monde des métiers. Elles offrent une multitude d'informations
+                qui leur permettent de mieux comprendre les responsabilités, les exigences, les compétences et les
+                avantages liés aux différents métiers.
+                <br>
+                <br>
+
+                Premièrement, les fiches de métier fournissent aux jeunes des informations précises et détaillées sur
+                les différents métiers et leurs responsabilités. En apprenant ce que font les différents métiers et en
+                découvrant les compétences, les études et les qualifications requises pour les exercer, ils peuvent
+                mieux comprendre ce qu'ils veulent faire de leur vie et se préparer à leur avenir professionnel.
+                <br>
+                <br>
+                Deuxièmement, les fiches de métier aident les jeunes à découvrir les différents métiers qui leur
+                conviennent. Elles leur donnent une idée des différentes voies professionnelles et des possibilités qui
+                s'offrent à eux. En lisant les différentes fiches de métier, ils peuvent mieux comprendre quels métiers
+                conviennent le mieux à leurs compétences et à leurs intérêts.
+                <br>
+                <br>
+                Troisièmement, les fiches de métier offrent aux jeunes des informations sur les perspectives d'emploi.
+                Elles leur permettent de mieux comprendre le marché du travail et de savoir si le métier qu'ils
+                choisissent est en demande ou non. En lisant les fiches de métier, ils peuvent également se familiariser
+                avec les salaires moyens et les avantages sociaux associés à chaque métier.
+                <br>
+                <br>
+                Enfin, les fiches de métier aident les jeunes à avoir une meilleure compréhension des compétences
+                nécessaires pour réussir dans leur domaine de travail. Elles donnent aux jeunes des informations sur les
+                compétences vérifiables, les compétences sociales et les compétences interpersonnelles qui leur seront
+                utiles pour réussir.
+                <br>
+                <br>
+                En somme, les fiches de métier sont une excellente ressource pour les collégiens et les lycéens qui
+                cherchent à mieux comprendre et à explorer le monde des métiers. Elles offrent une multitude
+                d'informations qui leur permettent de mieux comprendre les responsabilités, les compétences et les
+                avantages liés aux différents métiers.
+                <br>
+                <br>
+            </p>
+            <h3>Votre avis compte.</h3>
+
+            <p>Bonjour, avoir votre avie est important pour nous, afin que nous puission vous proposer un site toujour
+                plus performant. Pour cela, vous pouvez donner votre avis de notre site <br> sur l'adresse e-mail:
+                fiches&cie@gmail.com.
+                <hr>
+            <p>N'hesiter pas à nous fair des dons, toujours à cette adresse paypal <a href="dons.html">ici</a></p>
+
+        </article>
+        <br>
+        <br>
+        <br>
+        <div style="margin-left: 500px;">
+            <h6>Gaspard d'halluin 2deE</h6>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
